@@ -6371,7 +6371,7 @@
 		)
 		(uuid "1c094809-bdd1-44c1-b81e-21548dd11e0f")
 	)
-	(text "Starts up with D->D_DEV"
+	(text "Starts up with D->RP_D"
 		(exclude_from_sim no)
 		(at 111.76 94.742 0)
 		(effects
@@ -6510,6 +6510,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9afc92e8-22bf-46c7-9b32-05b45fcfa61d")
+	)
+	(junction
+		(at 212.09 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5e81070-776e-49ae-ac49-aff3e09bf34b")
 	)
 	(junction
 		(at 259.08 119.38)
@@ -6771,7 +6777,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 54.61) (xy 210.82 54.61)
+			(xy 200.66 54.61) (xy 212.09 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7208,6 +7214,16 @@
 			(type default)
 		)
 		(uuid "87c518cb-1c07-45f2-afb1-29e8555470ec")
+	)
+	(wire
+		(pts
+			(xy 212.09 55.88) (xy 212.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8833ff9a-13f0-4813-a904-a518318f2366")
 	)
 	(wire
 		(pts
@@ -7851,7 +7867,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 62.23) (xy 220.98 62.23)
+			(xy 219.71 54.61) (xy 226.06 54.61)
 		)
 		(stroke
 			(width 0)
@@ -10211,7 +10227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 137.16 19.05 0)
 			(effects
 				(font
@@ -10478,7 +10494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.6252 160.02 0)
 			(effects
 				(font
@@ -10497,6 +10513,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 200.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603JRNPO9BN150"
 			(at 200.66 156.21 0)
 			(effects
 				(font
@@ -11019,7 +11053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 230.8352 160.02 0)
 			(effects
 				(font
@@ -11046,11 +11080,29 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 229.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603JRNPO9BN150"
+			(at 229.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "6bf51ee9-ba98-418a-900e-6bd68c200df1")
+			(uuid "6bf51ee9-ba98-418a-900e-6bd68c200df2")
 		)
 		(pin "2"
-			(uuid "7fa17ca0-8e2e-4cdf-ab70-4629d4b3bf2e")
+			(uuid "7fa17ca0-8e2e-4cdf-ab70-4629d4b3bf2f")
 		)
 		(instances
 			(project ""
@@ -11587,7 +11639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 124.46 39.37 0)
 			(effects
 				(font
@@ -12074,7 +12126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.224 45.466 90)
 			(effects
 				(font
@@ -12093,6 +12145,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 142.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 142.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0727RL"
 			(at 142.24 45.72 0)
 			(effects
 				(font
@@ -13149,7 +13219,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 220.98 62.23 0)
+		(at 226.06 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13158,7 +13228,7 @@
 		(fields_autoplaced yes)
 		(uuid "72d2288f-94d9-4529-bffe-423c3503ea4d")
 		(property "Reference" "#PWR060"
-			(at 220.98 66.04 0)
+			(at 226.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,7 +13237,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 220.98 57.15 0)
+			(at 226.06 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13175,7 +13245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 62.23 0)
+			(at 226.06 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13184,7 +13254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 62.23 0)
+			(at 226.06 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13193,7 +13263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 220.98 62.23 0)
+			(at 226.06 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16166,7 +16236,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 210.82 58.42 0)
+		(at 215.9 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16175,25 +16245,23 @@
 		(fields_autoplaced yes)
 		(uuid "bdda030b-5ff1-4a54-849d-96c42bb13028")
 		(property "Reference" "R6"
-			(at 212.6006 57.1499 0)
+			(at 215.9 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "2.2kR"
-			(at 212.6006 59.6899 0)
+			(at 215.9 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 211.836 58.674 90)
+			(at 216.154 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16202,7 +16270,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 58.42 0)
+			(at 215.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16211,7 +16279,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 210.82 58.42 0)
+			(at 215.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16220,7 +16288,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 210.82 58.42 0)
+			(at 215.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16229,7 +16297,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 210.82 58.42 0)
+			(at 215.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16238,7 +16306,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 210.82 58.42 0)
+			(at 215.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16247,7 +16315,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-072K2L"
-			(at 210.82 58.42 0)
+			(at 215.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16990,7 +17058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 39.37 0)
 			(effects
 				(font
@@ -17113,6 +17181,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 212.09 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d885a63e-1779-4167-a520-08248c7fb564")
+		(property "Reference" "R14"
+			(at 214.63 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DNF"
+			(at 214.63 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 211.074 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "647102db-5017-4d25-8731-3c419694f1fc")
+		)
+		(pin "1"
+			(uuid "b8eee206-ec13-4487-8898-a026b038ee13")
+		)
+		(instances
+			(project "USB_Power_Monitor"
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 147.32 19.05 0)
 		(unit 1)
@@ -17140,7 +17278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 152.4 19.05 0)
 			(effects
 				(font
@@ -17225,7 +17363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 132.334 48.006 90)
 			(effects
 				(font
@@ -17252,11 +17390,29 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 133.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0727RL"
+			(at 133.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "8ff4a627-4d9d-468d-ad88-d98340e436df")
+			(uuid "8ff4a627-4d9d-468d-ad88-d98340e436e0")
 		)
 		(pin "1"
-			(uuid "492c5133-5fca-4894-9ae2-108afc6944d7")
+			(uuid "492c5133-5fca-4894-9ae2-108afc6944d8")
 		)
 		(instances
 			(project ""
@@ -17845,7 +18001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.824 151.384 90)
 			(effects
 				(font
@@ -17865,6 +18021,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 242.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 242.57 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071KL"
+			(at 242.57 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17979,7 +18153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.524 118.364 90)
 			(effects
 				(font
@@ -17999,6 +18173,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 128.27 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071KL"
+			(at 128.27 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18261,6 +18453,72 @@
 			(project ""
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f51b1c1c-bdb4-457e-a2c4-e54b8fa643aa")
+		(property "Reference" "#PWR066"
+			(at 212.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b2744e5-39c3-4505-b80c-f35316583e42")
+		)
+		(instances
+			(project "USB_Power_Monitor"
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -18607,7 +18865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.604 112.776 90)
 			(effects
 				(font

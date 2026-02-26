@@ -488,11 +488,18 @@
         "wire_width": 6
       },
       {
+        "name": "50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15
+      },
+      {
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.15,
         "name": "90_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -557,6 +564,22 @@
       {
         "netclass": "90_diff",
         "pattern": "/TX2-"
+      },
+      {
+        "netclass": "50",
+        "pattern": "/CC1"
+      },
+      {
+        "netclass": "50",
+        "pattern": "/CC2"
+      },
+      {
+        "netclass": "50",
+        "pattern": "/SBU1"
+      },
+      {
+        "netclass": "50",
+        "pattern": "/SBU2"
       }
     ]
   },
@@ -697,6 +720,42 @@
           "group_by": false,
           "label": "KLC_S4.2_VREG_VOUT",
           "name": "KLC_S4.2_VREG_VOUT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
           "show": false
         }
       ],
