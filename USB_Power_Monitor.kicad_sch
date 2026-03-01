@@ -2373,7 +2373,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2382,15 +2382,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2415,7 +2415,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2442,27 +2442,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x01_1_1"
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(rectangle
@@ -2476,30 +2465,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -2509,60 +2476,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6512,12 +6425,6 @@
 		(uuid "9afc92e8-22bf-46c7-9b32-05b45fcfa61d")
 	)
 	(junction
-		(at 212.09 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5e81070-776e-49ae-ac49-aff3e09bf34b")
-	)
-	(junction
 		(at 259.08 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6546,6 +6453,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4892edf-f0dd-4ea9-8e31-d962d0d9ec30")
+	)
+	(junction
+		(at 212.09 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c92f3218-4b52-4db5-a8c6-05f294e6668a")
 	)
 	(junction
 		(at 236.22 139.7)
@@ -6637,7 +6550,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 58.42) (xy 90.17 58.42)
+			(xy 88.9 66.04) (xy 97.79 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6735,6 +6648,16 @@
 		)
 		(uuid "205d4633-3b36-4702-9646-9967c8daf658")
 	)
+	(wire
+		(pts
+			(xy 203.2 80.01) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23536e42-96d7-49c0-8f77-d3a9232aa309")
+	)
 	(polyline
 		(pts
 			(xy 17.78 101.6) (xy 17.78 129.54)
@@ -6774,16 +6697,6 @@
 			(type default)
 		)
 		(uuid "28d22893-2494-4fc4-9f16-ae46ada7ab24")
-	)
-	(wire
-		(pts
-			(xy 200.66 54.61) (xy 212.09 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ffcab14-2b67-4b81-a983-66a511e13325")
 	)
 	(wire
 		(pts
@@ -6987,7 +6900,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 63.5) (xy 95.25 63.5)
+			(xy 107.95 66.04) (xy 113.03 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7197,7 +7110,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 60.96) (xy 95.25 60.96)
+			(xy 107.95 55.88) (xy 121.92 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7214,16 +7127,6 @@
 			(type default)
 		)
 		(uuid "87c518cb-1c07-45f2-afb1-29e8555470ec")
-	)
-	(wire
-		(pts
-			(xy 212.09 55.88) (xy 212.09 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8833ff9a-13f0-4813-a904-a518318f2366")
 	)
 	(wire
 		(pts
@@ -7294,6 +7197,16 @@
 			(type default)
 		)
 		(uuid "94602567-c720-433b-8b64-3899c68975de")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950c529f-9d8c-49ce-a222-338848231723")
 	)
 	(wire
 		(pts
@@ -7517,6 +7430,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 66.04) (xy 113.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d8abee-1073-46b7-b2a8-88320889a952")
+	)
+	(wire
+		(pts
+			(xy 212.09 80.01) (xy 203.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c5bc75-f5eb-4358-a452-730e560361bd")
+	)
+	(wire
+		(pts
 			(xy 274.32 115.57) (xy 274.32 119.38)
 		)
 		(stroke
@@ -7547,6 +7480,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 85.09) (xy 200.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f20b77-21ed-487a-9f8f-d001a0f99edf")
+	)
+	(wire
+		(pts
 			(xy 129.54 86.36) (xy 138.43 86.36)
 		)
 		(stroke
@@ -7557,7 +7500,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 55.88) (xy 90.17 55.88)
+			(xy 88.9 55.88) (xy 97.79 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7807,6 +7750,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 80.01) (xy 226.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3662908-f7e1-4004-a7e6-ae613f84ae7a")
+	)
+	(wire
+		(pts
 			(xy 246.38 152.4) (xy 255.27 152.4)
 		)
 		(stroke
@@ -7867,16 +7820,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 54.61) (xy 226.06 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e089aa-5e98-4f9f-9941-239aa08e30a1")
-	)
-	(wire
-		(pts
 			(xy 256.54 66.04) (xy 279.4 66.04)
 		)
 		(stroke
@@ -7884,6 +7827,16 @@
 			(type default)
 		)
 		(uuid "fa41ac89-4d6c-43a7-a261-d4feaaf2f2b2")
+	)
+	(wire
+		(pts
+			(xy 212.09 81.28) (xy 212.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd06f497-3015-42bc-b8b9-334f2ac52c27")
 	)
 	(wire
 		(pts
@@ -7896,7 +7849,7 @@
 		(uuid "ff388ae9-fdc3-49c3-830f-f5250719a2d6")
 	)
 	(label "SDA"
-		(at 85.09 55.88 0)
+		(at 92.71 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8096,7 +8049,7 @@
 		(uuid "44a00a00-cd4c-4c68-9090-04697e45df06")
 	)
 	(label "SCL"
-		(at 85.09 58.42 0)
+		(at 92.71 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8345,6 +8298,16 @@
 		)
 		(uuid "a64f778f-14c5-4565-8439-df848003abb4")
 	)
+	(label "USB_S"
+		(at 203.2 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8e9d16c-7dca-480b-a357-b3275a6b43c4")
+	)
 	(label "DEV_D-"
 		(at 86.36 86.36 0)
 		(effects
@@ -8444,16 +8407,6 @@
 			(justify left bottom)
 		)
 		(uuid "beffad3c-458a-48ee-80a1-053a3ca54abb")
-	)
-	(label "USB_S"
-		(at 203.2 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c45e58cc-6432-41f2-92a4-d638c007554f")
 	)
 	(label "RX1-"
 		(at 266.8185 48.26 0)
@@ -9845,80 +9798,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 76.2 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d2f0a0a-14fc-4e99-bb2f-1002a00b8512")
-		(property "Reference" "J3"
-			(at 76.2 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OLED"
-			(at 76.2 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 76.2 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "67224df9-c269-4a92-af38-ae424e320f7d")
-		)
-		(pin "1"
-			(uuid "d9cd8beb-5971-4f3b-b031-9e13401913b4")
-		)
-		(pin "4"
-			(uuid "c7c34f14-9def-453c-bd0a-987944b5fbd5")
-		)
-		(pin "3"
-			(uuid "c2a3183f-823d-4943-8b1f-77cd6a15991b")
-		)
-		(instances
-			(project "USB_Power_Logger"
-				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 90.17 179.07 0)
 		(unit 1)
@@ -10753,6 +10632,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 226.06 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3225da09-bbe6-4d2f-aafc-8c8f45ead9ac")
+		(property "Reference" "#PWR068"
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 226.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4484eca1-b0c0-4211-afb1-668297c52069")
+		)
+		(instances
+			(project "USB_Power_Monitor"
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
 		(at 175.26 64.77 0)
 		(unit 1)
@@ -11174,6 +11119,71 @@
 			(project "USB_Power_Logger"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 102.87 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39a15524-71f8-4445-b9ef-c7bc25ff1709")
+		(property "Reference" "J6"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c789fe5a-b24b-4971-9bdc-914ab381f16a")
+		)
+		(instances
+			(project ""
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12849,6 +12859,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 212.09 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65b34961-541c-4a13-a40d-3048361cd3b5")
+		(property "Reference" "#PWR067"
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f94fc62f-9918-4232-8193-810f27a8fa2d")
+		)
+		(instances
+			(project "USB_Power_Monitor"
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 199.39 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13219,73 +13295,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 226.06 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72d2288f-94d9-4529-bffe-423c3503ea4d")
-		(property "Reference" "#PWR060"
-			(at 226.06 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 226.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 226.06 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbdb6fe2-6627-47f6-a948-426d0672003b")
-		)
-		(instances
-			(project "USB_Power_Logger"
-				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 95.25 60.96 0)
+		(at 121.92 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13294,7 +13304,7 @@
 		(fields_autoplaced yes)
 		(uuid "735c2eb5-77e4-4886-a613-370cf146cf29")
 		(property "Reference" "#PWR010"
-			(at 95.25 64.77 0)
+			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13303,7 +13313,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 95.25 55.88 0)
+			(at 121.92 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,7 +13321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 60.96 0)
+			(at 121.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,7 +13330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 60.96 0)
+			(at 121.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13329,7 +13339,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 95.25 60.96 0)
+			(at 121.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13410,6 +13420,76 @@
 			(project "USB_Power_Logger"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 212.09 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76dc525f-970c-4ac2-a19c-a84e3016d3be")
+		(property "Reference" "R15"
+			(at 214.63 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DNF"
+			(at 214.63 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 211.074 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 212.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3326a3b8-0e9e-4eb2-8f5a-a091102bc2fa")
+		)
+		(pin "1"
+			(uuid "17e3b529-e35c-42b7-98ea-d290e2e093d4")
+		)
+		(instances
+			(project "USB_Power_Monitor"
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -15156,6 +15236,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 83.82 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d64da9-14b2-4231-9729-6b760df594ee")
+		(property "Reference" "J4"
+			(at 83.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 83.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c789fe5a-b24b-4971-9bdc-914ab381f16a")
+		)
+		(instances
+			(project ""
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ABM8-272-T3:ABM8-272-T3")
 		(at 215.9 152.4 0)
 		(unit 1)
@@ -16235,110 +16380,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 215.9 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdda030b-5ff1-4a54-849d-96c42bb13028")
-		(property "Reference" "R6"
-			(at 215.9 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2kR"
-			(at 215.9 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 216.154 53.594 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 215.9 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 215.9 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 215.9 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 215.9 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-072K2L"
-			(at 215.9 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6da721f2-fd3b-4adf-ab66-6bef14715ca0")
-		)
-		(pin "1"
-			(uuid "9765141a-f924-45e1-9f37-6f2a17cf6714")
-		)
-		(instances
-			(project "USB_Power_Logger"
-				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 129.54 78.74 0)
 		(unit 1)
@@ -16833,6 +16874,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 102.87 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbae5640-1d81-4938-9a2a-5e938fb45b1b")
+		(property "Reference" "J5"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 102.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c789fe5a-b24b-4971-9bdc-914ab381f16a")
+		)
+		(instances
+			(project ""
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 36.83 110.49 0)
 		(unit 1)
@@ -16900,7 +17006,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 63.5 0)
+		(at 121.92 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16909,7 +17015,7 @@
 		(fields_autoplaced yes)
 		(uuid "d248971e-485a-4509-a13c-ea161456b5f5")
 		(property "Reference" "#PWR012"
-			(at 95.25 69.85 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16918,7 +17024,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 68.58 0)
+			(at 121.92 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16926,7 +17032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 63.5 0)
+			(at 121.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16935,7 +17041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 63.5 0)
+			(at 121.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16944,7 +17050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 63.5 0)
+			(at 121.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17182,34 +17288,32 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 212.09 59.69 180)
+		(at 215.9 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d885a63e-1779-4167-a520-08248c7fb564")
-		(property "Reference" "R14"
-			(at 214.63 58.4199 0)
+		(uuid "d94e538e-7b35-4e96-a953-2b626fefc358")
+		(property "Reference" "R16"
+			(at 215.9 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "DNF"
-			(at 214.63 60.9599 0)
+		(property "Value" "2.2kR"
+			(at 215.9 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 211.074 59.436 90)
+			(at 216.154 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17218,7 +17322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 59.69 0)
+			(at 215.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17227,7 +17331,43 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 212.09 59.69 0)
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-072K2L"
+			(at 215.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17236,15 +17376,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "647102db-5017-4d25-8731-3c419694f1fc")
+			(uuid "859487e6-b582-4d51-94df-f3a18767d22c")
 		)
 		(pin "1"
-			(uuid "b8eee206-ec13-4487-8898-a026b038ee13")
+			(uuid "6faa1c0d-82d7-474a-b6ac-fbad8ffa1279")
 		)
 		(instances
 			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -18280,6 +18420,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 83.82 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2530f30-2440-4275-a9d8-77c1677b0009")
+		(property "Reference" "J3"
+			(at 83.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c789fe5a-b24b-4971-9bdc-914ab381f16a")
+		)
+		(instances
+			(project ""
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Plug")
 		(at 241.3 48.26 0)
 		(unit 1)
@@ -18453,72 +18658,6 @@
 			(project ""
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f51b1c1c-bdb4-457e-a2c4-e54b8fa643aa")
-		(property "Reference" "#PWR066"
-			(at 212.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b2744e5-39c3-4505-b80c-f35316583e42")
-		)
-		(instances
-			(project "USB_Power_Monitor"
-				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
