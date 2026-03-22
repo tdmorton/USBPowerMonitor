@@ -6341,6 +6341,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b474ec1-aa0c-48db-abe3-0dee921159f3")
+	)
+	(wire
+		(pts
 			(xy 138.43 127) (xy 149.86 127)
 		)
 		(stroke
@@ -6528,6 +6538,16 @@
 			(type default)
 		)
 		(uuid "28d22893-2494-4fc4-9f16-ae46ada7ab24")
+	)
+	(wire
+		(pts
+			(xy 147.32 100.33) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0f3a22-3a87-487f-a6b1-11e69834305d")
 	)
 	(wire
 		(pts
@@ -6891,6 +6911,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 100.33) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b867492-5f9b-4f94-bde3-6b2542afdf75")
+	)
+	(wire
+		(pts
 			(xy 256.54 71.12) (xy 279.4 71.12)
 		)
 		(stroke
@@ -7078,6 +7108,16 @@
 			(type default)
 		)
 		(uuid "9cdba2ab-cde3-47e5-b8d8-d1ad76c82686")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef56aba-09ed-4c08-8834-3a3476461fe4")
 	)
 	(wire
 		(pts
@@ -8506,7 +8546,7 @@
 			(uuid "b1a9f773-a8ed-4ca1-94f6-80ce408a30a3")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C15")
 					(unit 1)
@@ -8572,7 +8612,7 @@
 			(uuid "3873991a-bba5-467e-80b0-fac0d22817f1")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR064")
 					(unit 1)
@@ -8638,7 +8678,7 @@
 			(uuid "0c9f4194-a41b-4889-9c75-4739c00a12ea")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR019")
 					(unit 1)
@@ -8704,7 +8744,7 @@
 			(uuid "a0ec85f4-1624-4271-814c-336d7531fcbe")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR020")
 					(unit 1)
@@ -8819,7 +8859,7 @@
 			(uuid "c0b5df73-d244-44d2-8b6e-ca28ade8394f")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C13")
 					(unit 1)
@@ -8934,7 +8974,7 @@
 			(uuid "83ee12c6-0916-4c51-bd7b-0a4c511e64e4")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C12")
 					(unit 1)
@@ -9000,7 +9040,7 @@
 			(uuid "238340ee-7311-4e9c-94ea-794acc677a62")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR022")
 					(unit 1)
@@ -9115,7 +9155,7 @@
 			(uuid "440426d9-5884-430a-8100-c356c31c2216")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C1")
 					(unit 1)
@@ -9181,7 +9221,7 @@
 			(uuid "d2e28895-c819-408a-9a61-704fe58cc984")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR028")
 					(unit 1)
@@ -9247,7 +9287,7 @@
 			(uuid "4952479a-5c85-498a-9557-dc84c76ad669")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR04")
 					(unit 1)
@@ -9353,7 +9393,7 @@
 			(uuid "93921122-31af-4f65-a379-0617b4e6be75")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R8")
 					(unit 1)
@@ -9419,7 +9459,7 @@
 			(uuid "3f5ef198-dd4c-4146-bcea-69c85b2b123f")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR058")
 					(unit 1)
@@ -9534,7 +9574,7 @@
 			(uuid "9bb10272-4f60-44fd-9720-0712e980127a")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C17")
 					(unit 1)
@@ -9600,7 +9640,7 @@
 			(uuid "08607e68-f031-4f60-b297-220cf21dad7a")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR050")
 					(unit 1)
@@ -9666,7 +9706,7 @@
 			(uuid "6e1b8be9-9165-48f5-a818-9ef4a8fdf5ee")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR065")
 					(unit 1)
@@ -9749,7 +9789,7 @@
 			(uuid "e3fa16d4-c703-4444-a70d-dfb307dbb525")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "TP6")
 					(unit 1)
@@ -9815,7 +9855,7 @@
 			(uuid "9ec78bbb-ac43-4155-80d2-fab0792e9648")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR033")
 					(unit 1)
@@ -9882,7 +9922,7 @@
 			(uuid "02998981-b846-49ef-be87-dbad0c79a2e2")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR052")
 					(unit 1)
@@ -9997,7 +10037,7 @@
 			(uuid "afb426b2-51d2-4442-ad69-31013e9afd59")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C2")
 					(unit 1)
@@ -10085,7 +10125,7 @@
 			(uuid "7fa17ca0-8e2e-4cdf-ab70-4629d4b3bf2e")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C20")
 					(unit 1)
@@ -10151,7 +10191,7 @@
 			(uuid "e534bed2-0962-406b-8ae6-dcd35baff74a")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR030")
 					(unit 1)
@@ -10217,7 +10257,7 @@
 			(uuid "033bc530-3b24-4fbd-86a8-e5b87d322fb1")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR026")
 					(unit 1)
@@ -10283,7 +10323,7 @@
 			(uuid "ac4edc57-e10f-48ae-ae45-e1de55f6502e")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR042")
 					(unit 1)
@@ -10622,7 +10662,7 @@
 			(uuid "1c9a5ccd-718a-4ee3-8d0e-96c3d7d3057b")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "U1")
 					(unit 1)
@@ -10710,7 +10750,7 @@
 			(uuid "7fa17ca0-8e2e-4cdf-ab70-4629d4b3bf2f")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C21")
 					(unit 1)
@@ -10776,7 +10816,7 @@
 			(uuid "8ad14115-9321-4c14-878c-89272c2d9772")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR017")
 					(unit 1)
@@ -10841,7 +10881,7 @@
 			(uuid "c789fe5a-b24b-4971-9bdc-914ab381f16a")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "J6")
 					(unit 1)
@@ -10956,7 +10996,7 @@
 			(uuid "c7f5e5c7-50a4-468b-a207-3077a6dc504f")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C11")
 					(unit 1)
@@ -11022,7 +11062,7 @@
 			(uuid "79e43746-8b64-47e1-bb85-f16d1d983e2e")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR056")
 					(unit 1)
@@ -11088,9 +11128,92 @@
 			(uuid "84b8d27f-b5da-4411-bda9-6130a6c832e1")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42889375-7f8f-4b60-873d-4164bed0d646")
+		(property "Reference" "TP4"
+			(at 141.478 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d305a0bf-d03d-4377-9e49-90d7b9e9ac84")
+		)
+		(instances
+			(project "USB_Power_Monitor"
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -11154,7 +11277,7 @@
 			(uuid "2f86d393-52e6-41c1-a14d-87cfd1d10c93")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR01")
 					(unit 1)
@@ -11239,7 +11362,7 @@
 			(uuid "dc422444-c9de-44d4-ad45-669ee926e017")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "TP1")
 					(unit 1)
@@ -11305,7 +11428,7 @@
 			(uuid "3c6c0ff8-f134-4049-aca9-e8f74f34ece3")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR057")
 					(unit 1)
@@ -11411,7 +11534,7 @@
 			(uuid "7cb99904-f17c-4b6f-8c13-a0fefc7a1714")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R2")
 					(unit 1)
@@ -11526,7 +11649,7 @@
 			(uuid "03e1ebe2-6966-439e-96a5-85bccdddd55c")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C18")
 					(unit 1)
@@ -11641,7 +11764,7 @@
 			(uuid "53050c55-2309-46e6-b9b1-c3081782d096")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C14")
 					(unit 1)
@@ -11729,7 +11852,7 @@
 			(uuid "492c5133-5fca-4894-9ae2-108afc6944d7")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R9")
 					(unit 1)
@@ -11795,7 +11918,7 @@
 			(uuid "eb82ba45-90b2-4290-8743-f977a87d0d9e")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR013")
 					(unit 1)
@@ -11861,7 +11984,7 @@
 			(uuid "69ec9329-4ae3-4c87-96a0-f3e86dc283fe")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR07")
 					(unit 1)
@@ -11927,7 +12050,7 @@
 			(uuid "b243d00f-9114-44ab-aa19-064939cb8a60")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR035")
 					(unit 1)
@@ -11993,7 +12116,7 @@
 			(uuid "5e377701-7642-4ed5-93a2-6e733fcf884e")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR027")
 					(unit 1)
@@ -12133,7 +12256,7 @@
 			(uuid "93046b90-8988-4aaa-aa04-b962bf5212a2")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "U2")
 					(unit 1)
@@ -12199,7 +12322,7 @@
 			(uuid "dfa36721-14c3-425d-8154-eda31bf37d34")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR049")
 					(unit 1)
@@ -12390,7 +12513,7 @@
 			(uuid "abc518de-bf2e-484f-ae4c-c76faba1b41c")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "J1")
 					(unit 1)
@@ -12605,7 +12728,7 @@
 			(uuid "e32d8169-1152-405a-b631-742c102658be")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR024")
 					(unit 1)
@@ -12671,7 +12794,7 @@
 			(uuid "c811dc9e-a6e2-4700-840a-e51859598728")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR062")
 					(unit 1)
@@ -12777,7 +12900,7 @@
 			(uuid "7cb99904-f17c-4b6f-8c13-a0fefc7a1715")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R1")
 					(unit 1)
@@ -12843,7 +12966,7 @@
 			(uuid "62310f77-3763-46c3-bbac-d5126220498b")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR05")
 					(unit 1)
@@ -12909,7 +13032,7 @@
 			(uuid "1b9ae690-eae7-4e46-809c-2b9c90266135")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR063")
 					(unit 1)
@@ -12975,7 +13098,7 @@
 			(uuid "702e883a-ad1e-4818-9c79-90d46bab017e")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR010")
 					(unit 1)
@@ -13041,7 +13164,7 @@
 			(uuid "f551ef45-9cfa-4ab4-b450-55ef730e7ed4")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR031")
 					(unit 1)
@@ -13199,7 +13322,7 @@
 			(uuid "a68576a5-5f23-4135-a025-d92a2a8b5445")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "JP1")
 					(unit 1)
@@ -13314,7 +13437,7 @@
 			(uuid "83167197-b583-4d2d-9926-ac3717ac715a")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "S1")
 					(unit 1)
@@ -13397,7 +13520,7 @@
 			(uuid "90987e04-34a7-4816-9deb-19cf4ac8ab65")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "TP5")
 					(unit 1)
@@ -13501,7 +13624,7 @@
 			(uuid "7cb99904-f17c-4b6f-8c13-a0fefc7a1716")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R3")
 					(unit 1)
@@ -13607,7 +13730,7 @@
 			(uuid "7f5ffb4d-1ea3-438f-bfdb-8a339356c4dd")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R7")
 					(unit 1)
@@ -13722,7 +13845,7 @@
 			(uuid "3a968d70-d9f1-4d1c-ada2-eb469c73abd7")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "L1")
 					(unit 1)
@@ -13816,7 +13939,7 @@
 			(uuid "55a6f525-d1a1-4023-a92b-b0fe1bbaa5f2")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "U4")
 					(unit 1)
@@ -13882,7 +14005,7 @@
 			(uuid "276369af-9083-4c6f-a631-db74485a8351")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR043")
 					(unit 1)
@@ -13948,7 +14071,7 @@
 			(uuid "c5466f0e-735e-48c6-8f7b-8a12125c8fa4")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR038")
 					(unit 1)
@@ -14014,7 +14137,7 @@
 			(uuid "ee4550cc-7387-4c42-9558-22798e54290c")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR014")
 					(unit 1)
@@ -14129,7 +14252,7 @@
 			(uuid "6b2c3cd9-1bb1-4807-b98b-b58976119b84")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C10")
 					(unit 1)
@@ -14195,7 +14318,7 @@
 			(uuid "6bd8556b-aa12-4fa9-9d81-083a5b7293c5")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR046")
 					(unit 1)
@@ -14261,7 +14384,7 @@
 			(uuid "9edf036c-aa00-46eb-8ffb-5186e370406b")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR015")
 					(unit 1)
@@ -14367,9 +14490,92 @@
 			(uuid "c5676ad2-6323-4bd1-ad50-ab4ccbef2c70")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9470ac5d-6793-45f9-9070-f1d7ca290d29")
+		(property "Reference" "TP3"
+			(at 141.478 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.478 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f454cde3-541d-4bd5-a3c4-217566307b37")
+		)
+		(instances
+			(project "USB_Power_Monitor"
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -14433,7 +14639,7 @@
 			(uuid "5836835c-54c1-409e-b72e-76578aa37954")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR053")
 					(unit 1)
@@ -14499,7 +14705,7 @@
 			(uuid "e68338f6-5a14-4244-a55f-455579d9f411")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR03")
 					(unit 1)
@@ -14565,7 +14771,7 @@
 			(uuid "9824cdce-f137-4a8c-afb2-f9b77305c615")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR047")
 					(unit 1)
@@ -14653,7 +14859,7 @@
 			(uuid "ec1a6b3d-5e22-470b-b602-a51aa066f295")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "U3")
 					(unit 1)
@@ -14719,7 +14925,7 @@
 			(uuid "5f540d58-31b8-401f-b05a-93c53874fa9b")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR025")
 					(unit 1)
@@ -14834,7 +15040,7 @@
 			(uuid "afb426b2-51d2-4442-ad69-31013e9afd5a")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C3")
 					(unit 1)
@@ -14900,7 +15106,7 @@
 			(uuid "47dd697c-e2f1-4c41-b90f-e71d94031bf2")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR037")
 					(unit 1)
@@ -14966,7 +15172,7 @@
 			(uuid "b21e6612-54fc-4238-830c-c36206588e4a")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR048")
 					(unit 1)
@@ -15101,7 +15307,7 @@
 			(uuid "378169f3-1a9c-4142-8b2d-38e771c08547")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "Y1")
 					(unit 1)
@@ -15215,7 +15421,7 @@
 			(uuid "e17947dd-b181-4ce4-9c55-21e6ed45a925")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C5")
 					(unit 1)
@@ -15281,7 +15487,7 @@
 			(uuid "e00a0948-f250-48d6-b25e-41afcb8a41f9")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR06")
 					(unit 1)
@@ -15347,7 +15553,7 @@
 			(uuid "59d0426e-0cdf-4ff5-8006-495a64ae9676")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR034")
 					(unit 1)
@@ -15462,7 +15668,7 @@
 			(uuid "afb426b2-51d2-4442-ad69-31013e9afd5b")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C4")
 					(unit 1)
@@ -15568,7 +15774,7 @@
 			(uuid "26483a8e-5dee-4cbd-b3ce-b9b64bda1484")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R4")
 					(unit 1)
@@ -15634,7 +15840,7 @@
 			(uuid "65928582-806b-4496-ab16-64a0af8f82ce")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR061")
 					(unit 1)
@@ -15749,7 +15955,7 @@
 			(uuid "2f52d47b-a734-4b5d-b138-7eb8401411b6")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C6")
 					(unit 1)
@@ -15864,7 +16070,7 @@
 			(uuid "7528e5a5-069e-4463-b165-a7423882ec2d")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C9")
 					(unit 1)
@@ -15930,7 +16136,7 @@
 			(uuid "011591ac-37ec-4444-b7f8-602bf8a16633")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR021")
 					(unit 1)
@@ -16045,7 +16251,7 @@
 			(uuid "cf963fea-93a2-448a-9c66-359e0bb62254")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C16")
 					(unit 1)
@@ -16111,7 +16317,7 @@
 			(uuid "7366b585-63f7-4eb4-ad51-f3795df5052b")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR055")
 					(unit 1)
@@ -16177,7 +16383,7 @@
 			(uuid "e9f0bded-5ec6-4cd8-8a70-70ae4a073a04")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR09")
 					(unit 1)
@@ -16326,7 +16532,7 @@
 			(uuid "f84f7476-2048-4ddd-b2bf-58f83c04f9a7")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR023")
 					(unit 1)
@@ -16441,7 +16647,7 @@
 			(uuid "c006ea90-626a-4653-84cc-f63860e5b441")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C19")
 					(unit 1)
@@ -16556,7 +16762,7 @@
 			(uuid "9c482cc9-e454-4e59-a460-f5a8121571b5")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C8")
 					(unit 1)
@@ -16622,7 +16828,7 @@
 			(uuid "d62873a2-482d-4dcf-9f57-1ec00b89f1a0")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR054")
 					(unit 1)
@@ -16687,7 +16893,7 @@
 			(uuid "c789fe5a-b24b-4971-9bdc-914ab381f16c")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "J5")
 					(unit 1)
@@ -16753,7 +16959,7 @@
 			(uuid "42d80edd-c8d2-4c6e-84ad-87128fc9e09c")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR041")
 					(unit 1)
@@ -16819,7 +17025,7 @@
 			(uuid "1ecfbff9-9258-416f-83d5-c53161f01587")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR012")
 					(unit 1)
@@ -16885,7 +17091,7 @@
 			(uuid "f07185f4-e044-4c4e-912b-88bf01067765")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR08")
 					(unit 1)
@@ -16970,7 +17176,7 @@
 			(uuid "dc422444-c9de-44d4-ad45-669ee926e018")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "TP2")
 					(unit 1)
@@ -17035,7 +17241,7 @@
 			(uuid "4a03f05f-a56a-467b-aafc-e4476d5191c8")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR016")
 					(unit 1)
@@ -17227,7 +17433,7 @@
 			(uuid "492c5133-5fca-4894-9ae2-108afc6944d8")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R10")
 					(unit 1)
@@ -17293,7 +17499,7 @@
 			(uuid "33ffb8b2-c053-4fde-b61b-5022441e6460")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR018")
 					(unit 1)
@@ -17359,7 +17565,7 @@
 			(uuid "e655deda-88c9-4610-a90b-dd15d0caf949")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR039")
 					(unit 1)
@@ -17523,7 +17729,7 @@
 			(uuid "3803d92f-a7ee-4458-80f3-d1dcb4d3b1b9")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "IC1")
 					(unit 1)
@@ -17589,7 +17795,7 @@
 			(uuid "88df7390-1e48-40d4-b538-f8cf243525cf")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR044")
 					(unit 1)
@@ -17655,7 +17861,7 @@
 			(uuid "3a24f25d-83da-4865-a703-ea479cf4acb0")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR02")
 					(unit 1)
@@ -17779,7 +17985,7 @@
 			(uuid "40566033-0c71-4baf-8903-dc00a5e0f134")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "D1")
 					(unit 1)
@@ -17865,7 +18071,7 @@
 			(uuid "d1e3e25d-d62f-4b89-9dca-0e0c94415410")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R11")
 					(unit 1)
@@ -17931,7 +18137,7 @@
 			(uuid "31a8f437-114b-46b0-9c35-b60434ba3ceb")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR032")
 					(unit 1)
@@ -18017,7 +18223,7 @@
 			(uuid "261e7323-b81d-4e33-8824-825871171e9a")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R13")
 					(unit 1)
@@ -18083,7 +18289,7 @@
 			(uuid "24265b9d-7db0-408d-8555-bb7828e4b5ce")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR036")
 					(unit 1)
@@ -18262,7 +18468,7 @@
 			(uuid "ede9abd1-a241-4a9f-b09f-7a69be4c0f48")
 		)
 		(instances
-			(project ""
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "J2")
 					(unit 1)
@@ -18328,7 +18534,7 @@
 			(uuid "702a345e-e74a-4833-9353-c10e55138378")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR045")
 					(unit 1)
@@ -18394,7 +18600,7 @@
 			(uuid "0ab0f870-8c23-4c86-92b9-92d28e198ff4")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR011")
 					(unit 1)
@@ -18509,7 +18715,7 @@
 			(uuid "32407c11-cb59-49ea-8c1e-1a2e0166d9b4")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "C7")
 					(unit 1)
@@ -18575,7 +18781,7 @@
 			(uuid "47d1e3ce-f5ca-41f3-b952-c4293ad4920d")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR029")
 					(unit 1)
@@ -18645,7 +18851,7 @@
 			(uuid "7a5f9ede-c64a-4ac1-b7f7-f815a4d9b3cf")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "R12")
 					(unit 1)
@@ -18711,7 +18917,7 @@
 			(uuid "4ad7199f-cba8-4cdc-acf7-9ef706da9a46")
 		)
 		(instances
-			(project "USB_Power_Logger"
+			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR040")
 					(unit 1)
