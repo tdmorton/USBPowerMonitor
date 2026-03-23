@@ -588,7 +588,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "outputs/",
+      "plot": "outputs/Drills/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
