@@ -10829,7 +10829,7 @@
 		(at 102.87 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13424,6 +13424,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Panasonic Electronic Components"
+			(at 67.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EVQ-P7A01P"
+			(at 67.31 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1_2"
 			(uuid "890fb5be-8c93-42cc-992b-81ebde65f5fa")
 		)
@@ -13900,6 +13918,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TS3USB221AQRSERQ1"
 			(at 93.98 78.74 0)
 			(effects
 				(font
@@ -14834,6 +14870,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Winbond Electronics"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "W25Q16JVSSIQ TR"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8befc907-ffdf-4952-b109-78f1e9f93505")
 		)
@@ -15291,6 +15345,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Abracon LLC"
+			(at 215.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ABM8-272-T3"
+			(at 215.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15758,7 +15830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805FR-07499RL"
+		(property "Manufacturer_Part_Number" "RC0603FR-07499RL"
 			(at 270.51 123.19 0)
 			(effects
 				(font
@@ -16841,7 +16913,7 @@
 		(at 102.87 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
