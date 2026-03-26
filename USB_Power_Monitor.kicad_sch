@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "e9e64cba-d7b8-4c36-9924-3031f0f5d4f4")
 	(paper "A4")
+	(title_block
+		(title "USB Power Monitor")
+		(date "2026-03-25")
+		(rev "0")
+	)
 	(lib_symbols
 		(symbol "ABM8-272-T3:ABM8-272-T3"
 			(pin_names
@@ -4977,6 +4982,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_Flash:W25Q16JVSS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6226,13 +6314,13 @@
 		(uuid "30249044-3810-471f-8cc9-f24b6626c67a")
 	)
 	(junction
-		(at 200.66 152.4)
+		(at 200.66 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43bf589b-7b7f-41a1-857f-849b10ff934f")
 	)
 	(junction
-		(at 229.87 152.4)
+		(at 229.87 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "729e0164-83b3-481d-86fb-12b63d81a907")
@@ -6428,6 +6516,16 @@
 			(type default)
 		)
 		(uuid "117667f2-2931-47f9-8c48-f7611a8098f3")
+	)
+	(wire
+		(pts
+			(xy 41.91 182.88) (xy 57.15 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12878334-b7fa-4574-b9b4-1d647d510eea")
 	)
 	(wire
 		(pts
@@ -6681,16 +6779,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 182.88) (xy 59.69 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e5e4f9d-a9a9-44e8-afcc-91e882b10dd3")
-	)
-	(wire
-		(pts
 			(xy 274.32 119.38) (xy 270.51 119.38)
 		)
 		(stroke
@@ -6698,6 +6786,16 @@
 			(type default)
 		)
 		(uuid "5eb99794-4014-48a3-ba99-a441f449cb24")
+	)
+	(wire
+		(pts
+			(xy 41.91 181.61) (xy 41.91 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c26285-f16f-49cb-89cf-bcf5143aefda")
 	)
 	(wire
 		(pts
@@ -7261,7 +7359,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 182.88) (xy 80.01 182.88)
+			(xy 72.39 182.88) (xy 77.47 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7371,7 +7469,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 152.4) (xy 238.76 152.4)
+			(xy 229.87 151.13) (xy 238.76 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7381,7 +7479,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 152.4) (xy 229.87 152.4)
+			(xy 223.52 151.13) (xy 229.87 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7541,7 +7639,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 152.4) (xy 200.66 152.4)
+			(xy 193.04 151.13) (xy 200.66 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7561,7 +7659,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 152.4) (xy 208.28 152.4)
+			(xy 200.66 151.13) (xy 208.28 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7611,7 +7709,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 152.4) (xy 255.27 152.4)
+			(xy 246.38 151.13) (xy 255.27 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7890,7 +7988,7 @@
 		(uuid "3e4d99c7-b880-467f-9747-39953037872f")
 	)
 	(label "XIN"
-		(at 194.31 152.4 0)
+		(at 194.31 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8020,7 +8118,7 @@
 		(uuid "6f32658b-5401-48cf-96f4-7f498b73bd4a")
 	)
 	(label "XOUT"
-		(at 248.92 152.4 0)
+		(at 248.92 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8060,7 +8158,7 @@
 		(uuid "7a615f3c-5227-413a-93fb-a5a8cd4900f8")
 	)
 	(label "button1"
-		(at 50.8 182.88 0)
+		(at 45.72 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9403,7 +9501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 160.02 0)
+		(at 229.87 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9412,7 +9510,7 @@
 		(fields_autoplaced yes)
 		(uuid "19850b4b-7a8b-44f9-a487-d702fbb81814")
 		(property "Reference" "#PWR058"
-			(at 229.87 166.37 0)
+			(at 229.87 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9421,7 +9519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 165.1 0)
+			(at 229.87 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9429,7 +9527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 160.02 0)
+			(at 229.87 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +9536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 160.02 0)
+			(at 229.87 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9447,7 +9545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 160.02 0)
+			(at 229.87 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9865,7 +9963,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 41.91 175.26 0)
+		(at 41.91 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9874,7 +9972,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a476b1d-a266-4557-b5fa-c2bd45248331")
 		(property "Reference" "#PWR052"
-			(at 41.91 179.07 0)
+			(at 41.91 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9883,7 +9981,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 44.45 173.9899 0)
+			(at 44.45 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9892,7 +9990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 175.26 0)
+			(at 41.91 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9901,7 +9999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 175.26 0)
+			(at 41.91 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +10008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 41.91 175.26 0)
+			(at 41.91 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,7 +10145,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 200.66 156.21 0)
+		(at 200.66 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10056,7 +10154,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d670214-6ed8-460f-bce2-69522a10b914")
 		(property "Reference" "C20"
-			(at 204.47 154.9399 0)
+			(at 204.47 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10065,7 +10163,7 @@
 			)
 		)
 		(property "Value" "15pF"
-			(at 204.47 157.4799 0)
+			(at 204.47 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10074,7 +10172,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 201.6252 160.02 0)
+			(at 201.6252 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10083,7 +10181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 156.21 0)
+			(at 200.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10092,7 +10190,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 200.66 156.21 0)
+			(at 200.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +10199,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 200.66 156.21 0)
+			(at 200.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,7 +10208,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603JRNPO9BN150"
-			(at 200.66 156.21 0)
+			(at 200.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10672,7 +10770,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 229.87 156.21 0)
+		(at 229.87 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10681,7 +10779,7 @@
 		(fields_autoplaced yes)
 		(uuid "3368053a-0bd7-48de-bd61-fd274bb00361")
 		(property "Reference" "C21"
-			(at 233.68 154.9399 0)
+			(at 233.68 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10690,7 +10788,7 @@
 			)
 		)
 		(property "Value" "15pF"
-			(at 233.68 157.4799 0)
+			(at 233.68 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10699,7 +10797,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 230.8352 160.02 0)
+			(at 230.8352 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +10806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 156.21 0)
+			(at 229.87 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,7 +10815,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 229.87 156.21 0)
+			(at 229.87 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +10824,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 229.87 156.21 0)
+			(at 229.87 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +10833,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603JRNPO9BN150"
-			(at 229.87 156.21 0)
+			(at 229.87 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,6 +11229,70 @@
 			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 109.22 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f90f00d-16de-48d1-bad7-98072a5ebabd")
+		(property "Reference" "H3"
+			(at 111.76 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 111.76 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 109.22 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "USB_Power_Monitor"
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -12976,7 +13138,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 160.02 0)
+		(at 200.66 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12985,7 +13147,7 @@
 		(fields_autoplaced yes)
 		(uuid "71881e86-3d2f-4201-863e-83aa11f1cda1")
 		(property "Reference" "#PWR063"
-			(at 200.66 166.37 0)
+			(at 200.66 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12994,7 +13156,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 165.1 0)
+			(at 200.66 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13002,7 +13164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 160.02 0)
+			(at 200.66 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13011,7 +13173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 160.02 0)
+			(at 200.66 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13020,7 +13182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 160.02 0)
+			(at 200.66 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13332,7 +13494,7 @@
 	)
 	(symbol
 		(lib_id "EVQ-P7A01P:EVQ-P7A01P")
-		(at 67.31 182.88 0)
+		(at 64.77 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13341,7 +13503,7 @@
 		(fields_autoplaced yes)
 		(uuid "79850f2b-5bcf-4390-a16e-5fe1175a32d7")
 		(property "Reference" "S1"
-			(at 67.31 175.26 0)
+			(at 64.77 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13349,7 +13511,7 @@
 			)
 		)
 		(property "Value" "EVQ-P7A01P"
-			(at 67.31 177.8 0)
+			(at 64.77 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13357,7 +13519,7 @@
 			)
 		)
 		(property "Footprint" "EVQ-P7A01P:SW_EVQ-P7A01P"
-			(at 67.31 182.88 0)
+			(at 64.77 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13367,7 +13529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 182.88 0)
+			(at 64.77 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13376,7 +13538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 182.88 0)
+			(at 64.77 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13385,7 +13547,7 @@
 			)
 		)
 		(property "PARTREV" "2022.4"
-			(at 67.31 182.88 0)
+			(at 64.77 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,7 +13557,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 67.31 182.88 0)
+			(at 64.77 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13405,7 +13567,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-			(at 67.31 182.88 0)
+			(at 64.77 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13415,7 +13577,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 67.31 182.88 0)
+			(at 64.77 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13425,7 +13587,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic Electronic Components"
-			(at 67.31 182.88 0)
+			(at 64.77 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13434,7 +13596,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EVQ-P7A01P"
-			(at 67.31 182.88 0)
+			(at 64.77 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14430,7 +14592,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 41.91 179.07 0)
+		(at 41.91 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14439,7 +14601,7 @@
 		(fields_autoplaced yes)
 		(uuid "94021957-5c3e-4bf0-839d-40b94a7997f7")
 		(property "Reference" "R5"
-			(at 44.45 177.7999 0)
+			(at 44.45 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14448,7 +14610,7 @@
 			)
 		)
 		(property "Value" "2.2kR"
-			(at 44.45 180.3399 0)
+			(at 44.45 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14457,7 +14619,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 42.926 179.324 90)
+			(at 42.926 178.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +14628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 179.07 0)
+			(at 41.91 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14475,7 +14637,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 41.91 179.07 0)
+			(at 41.91 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14484,7 +14646,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 41.91 179.07 0)
+			(at 41.91 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14493,7 +14655,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
-			(at 41.91 179.07 0)
+			(at 41.91 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14502,7 +14664,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 41.91 179.07 0)
+			(at 41.91 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,7 +14673,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-072K2L"
-			(at 41.91 179.07 0)
+			(at 41.91 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14619,7 +14781,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 157.48 0)
+		(at 223.52 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14628,7 +14790,7 @@
 		(fields_autoplaced yes)
 		(uuid "971e37ad-d63c-41ad-bc3d-8bddf912db32")
 		(property "Reference" "#PWR053"
-			(at 223.52 163.83 0)
+			(at 223.52 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14637,7 +14799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 162.56 0)
+			(at 223.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14645,7 +14807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 157.48 0)
+			(at 223.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14654,7 +14816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 157.48 0)
+			(at 223.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14663,7 +14825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 157.48 0)
+			(at 223.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14685,7 +14847,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 182.88 0)
+		(at 77.47 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14694,7 +14856,7 @@
 		(fields_autoplaced yes)
 		(uuid "97d5f6fc-5378-4226-a96d-5fbc878986d5")
 		(property "Reference" "#PWR03"
-			(at 80.01 189.23 0)
+			(at 77.47 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14703,7 +14865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 187.96 0)
+			(at 77.47 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14711,7 +14873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 182.88 0)
+			(at 77.47 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14720,7 +14882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 182.88 0)
+			(at 77.47 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14729,7 +14891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 182.88 0)
+			(at 77.47 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15236,7 +15398,7 @@
 	)
 	(symbol
 		(lib_id "ABM8-272-T3:ABM8-272-T3")
-		(at 215.9 152.4 0)
+		(at 215.9 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15245,7 +15407,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6020fd4-b57e-4c6d-b01c-f48e42d2a873")
 		(property "Reference" "Y1"
-			(at 215.9 142.24 0)
+			(at 215.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15253,7 +15415,7 @@
 			)
 		)
 		(property "Value" "ABM8-272-T3"
-			(at 215.9 144.78 0)
+			(at 215.9 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15261,7 +15423,7 @@
 			)
 		)
 		(property "Footprint" "ABM8-272-T3:XTAL_ABM8-272-T3"
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15271,7 +15433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15280,7 +15442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15289,7 +15451,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15299,7 +15461,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15309,7 +15471,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15319,7 +15481,7 @@
 			)
 		)
 		(property "PARTREV" "07-29-20"
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15329,7 +15491,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15339,7 +15501,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ABRACON"
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15349,7 +15511,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Abracon LLC"
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15358,7 +15520,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ABM8-272-T3"
-			(at 215.9 152.4 0)
+			(at 215.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15382,6 +15544,70 @@
 			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 109.22 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7cf683e-34ba-4a8d-ac6a-9dd575cb8010")
+		(property "Reference" "H2"
+			(at 111.76 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 111.76 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "USB_Power_Monitor"
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -16541,6 +16767,70 @@
 			(project "USB_Power_Monitor"
 				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 109.22 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2cead56-a38c-411e-a756-9498eac85862")
+		(property "Reference" "H1"
+			(at 111.76 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 111.76 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "USB_Power_Monitor"
+				(path "/e9e64cba-d7b8-4c36-9924-3031f0f5d4f4"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -18067,7 +18357,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 242.57 152.4 90)
+		(at 242.57 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18076,7 +18366,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebe67c23-ad07-4736-b9d9-a87a8bc4a0be")
 		(property "Reference" "R11"
-			(at 242.57 146.05 90)
+			(at 242.57 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18084,7 +18374,7 @@
 			)
 		)
 		(property "Value" "1kR"
-			(at 242.57 148.59 90)
+			(at 242.57 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18092,7 +18382,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 242.824 151.384 90)
+			(at 242.824 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18101,7 +18391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 152.4 0)
+			(at 242.57 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18110,7 +18400,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 242.57 152.4 0)
+			(at 242.57 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18119,7 +18409,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 242.57 152.4 90)
+			(at 242.57 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18128,7 +18418,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-071KL"
-			(at 242.57 152.4 90)
+			(at 242.57 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
